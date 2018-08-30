@@ -15,12 +15,6 @@ from collections import Counter
 
 class One_Model():
     def __init__(self, model_dir_name, start_day, version, available_day, pick_high = True):
-        '''
-        normal_stock_list : directory of stocks used to be predicted. The format of the file should be in mins
-        candidate_stock_list : directory of stocks used to be predicted. The format of the file should be in 3mins interval
-        major_stock_files: directory of stocks used to train model (should be similar to the stock used to be predicted)
-        minor_stock_files: directory of stocks used to train model (these stock may not be used to make prediction, be considered as supplement to training data)
-        '''
         
     
         self.version = version
